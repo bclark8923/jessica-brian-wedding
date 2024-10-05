@@ -273,6 +273,9 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
 --------------------------------------*/
 .about {padding: 50px 0 100px;}
 .about-content {padding-top: 100px;}
+@media only screen and (max-width: 800px) {
+    .about-content {padding-top: 20px;}
+}
 /*.single-about-txt*/
 .single-about-txt h3 {
     font-size:18px;
@@ -389,7 +392,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 .skill-content{padding: 50px 0 80px;}
 .single-skill-content{padding-top: 100px;}
 .section-heading h2 {
-    font-size: 24px;
+    font-size: 34px;
     font-weight: 600;
     text-transform: uppercase;
     padding-bottom: 50px;
