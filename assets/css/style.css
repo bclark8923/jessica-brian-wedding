@@ -190,7 +190,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
     align-items: center;
     justify-content: center;
     position:relative;
-    background:url('https://dbqynehjrzjxc.cloudfront.net/header.jpg')no-repeat;
+    background:url('/assets/images/header-min.jpg')no-repeat;
     background-size:cover;
         background-position: top;
     height:590px;
