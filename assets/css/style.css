@@ -398,7 +398,6 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     font-weight: 600;
     text-transform: uppercase;
     padding-bottom: 50px;
-    border-bottom: 1px solid #e5ebf2;
 }
 .single-progress-txt {
     display: flex;
@@ -874,9 +873,11 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 /*========================Thank you=================*/
 .photo-container {
     padding: 20px;
+    padding-top: 0px;
 }
 .photo-link {
     margin: 15px;
+    margin-top: 30px;
 }
 .link-container{
     text-align: center;
@@ -889,6 +890,9 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 .education {
     background:  #eef1f4;
     padding-bottom: 25px;
+}
+.video-heading h2 {
+    border-bottom: 1px solid #e5ebf2;
 }
 @media only screen and (max-width: 800px) {
     .header-text h2 {
