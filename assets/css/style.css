@@ -888,19 +888,45 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     margin-bottom: 20px;
 }
 .education {
-    background:  #eef1f4;
+    background:  #ffffff;
     padding-bottom: 25px;
+}
+.main-videos, .footer-copyright {
+    background: #fafafa
 }
 .video-heading h2 {
     border-bottom: 1px solid #e5ebf2;
 }
+.ig-title {
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+.instagram-media {
+    margin: 0 auto !important;
+}
 @media only screen and (max-width: 800px) {
     .header-text h2 {
         font-size: 34px;
+    }
+    .single-highlight-txt {
+        border-top: 1px solid #999fb3;
+    }
+    .single-highlight-txt p {
+        padding-bottom: 50px;
+        padding-top: 20px;
     }
 }
 @media screen and (max-width: 1199px) {
     .welcome-hero {
         height: 500px;
     }
+    .instagram-media {
+        margin-bottom: 50px !important;
+    }
+}
+.highlight-content {padding-top: 100px;}
+@media only screen and (max-width: 1199px) {
+    .highlight-content {padding-top: 0px;}
+    .highlight-wrapper {margin-top: 50px;}
 }
